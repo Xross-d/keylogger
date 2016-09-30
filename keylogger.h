@@ -5,7 +5,8 @@ struct code2keymap {
 };
 
 //code to key mapping struct(decoding your ascii)
-struct code2keymap c2k[] = {
+//struct code2keymap c2k[] = {
+const char* ascii[] = {
       "0",  "[RESERVED]",
       "1",  "[ESC]",
       "2",  "1",
